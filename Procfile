@@ -1,1 +1,1 @@
-web: npm run ios
+web: npx serve web-build
