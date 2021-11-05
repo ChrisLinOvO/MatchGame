@@ -1,1 +1,1 @@
-web: npx react-native run-ios
+web: npm run ios
