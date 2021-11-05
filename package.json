@@ -7,8 +7,7 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint .",
-    "build": "expo build:web"
+    "lint": "eslint ."
   },
   "dependencies": {
     "react": "17.0.2",
