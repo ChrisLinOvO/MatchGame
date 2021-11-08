@@ -2,7 +2,8 @@
 
 > 使用 React Native 製作
 ```
-哈哈
+[Expo 線上工具](https://snack.expo.dev/@git/github.com/ChrisLinOvO/MatchGame).
+並下載 Expo Go 可進行Demo
 ```
 
 ## 遊戲介面
