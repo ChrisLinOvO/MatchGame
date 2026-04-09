@@ -5,17 +5,13 @@ import {
 } from 'react-native';
 
 const Card = (props) => {
+  const { onPress, style, fontSize = 32, title, cover, isShow } = props;
 
   return (
-    <>
-         <TouchableOpacity onPress={props.onPress} style={{...props.style}}>
-              <Text style={{fontSize:props.fontSize}||32}>{props.isShow?props.title:props.cover}</Text>
-            </TouchableOpacity>
-
-
-    </>
+    <TouchableOpacity onPress={onPress} style={style}>
+      <Text style={{ fontSize }}>{isShow ? title : cover}</Text>
+    </TouchableOpacity>
   );
 };
 
 export default Card;
-
